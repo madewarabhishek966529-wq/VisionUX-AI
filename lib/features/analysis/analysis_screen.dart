@@ -23,7 +23,7 @@ class _AnalysisScreenState extends ConsumerState<AnalysisScreen>
   late TabController _tabController;
   bool _showBoundingBoxes = true;
   bool _showHeatmap = false;
-  bool _showAnnotations = true;
+  final bool _showAnnotations = true;
   int _selectedScreenIndex = 0;
 
   @override

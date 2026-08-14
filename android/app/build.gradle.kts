@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.visionux_ai"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
     compileOptions {

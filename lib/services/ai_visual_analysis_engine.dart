@@ -279,7 +279,7 @@ class AIVisualAnalysisEngine {
     const double modernDesign = 93.0;
     const double userExperience = 87.5;
 
-    final double overall = (visualDesign +
+    const double overall = (visualDesign +
             accessibility +
             typography +
             color +
@@ -289,7 +289,7 @@ class AIVisualAnalysisEngine {
             userExperience) /
         8;
 
-    return ScoreBreakdownModel(
+    return const ScoreBreakdownModel(
       overallScore: overall,
       visualDesignScore: visualDesign,
       accessibilityScore: accessibility,

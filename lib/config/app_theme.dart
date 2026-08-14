@@ -25,7 +25,7 @@ class AppTheme {
   static const Color error = Color(0xFFEF4444);
 
   static ThemeData get darkTheme {
-    final baseTextTheme = GoogleFonts.plusJakartaSansTextTheme(ThemeData.dark().textTheme);
+    final baseTextTheme = GoogleFonts.plusJakartaSansTextTheme(const TextTheme());
 
     return ThemeData(
       useMaterial3: true,
@@ -127,7 +127,7 @@ class AppTheme {
   }
 
   static ThemeData get lightTheme {
-    final baseTextTheme = GoogleFonts.plusJakartaSansTextTheme(ThemeData.light().textTheme);
+    final baseTextTheme = GoogleFonts.plusJakartaSansTextTheme(const TextTheme());
 
     return ThemeData(
       useMaterial3: true,
